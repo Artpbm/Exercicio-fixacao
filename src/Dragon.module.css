@@ -1,0 +1,23 @@
+.wrapPage{
+    width: 100%;
+    height: auto;
+    background-color: #0A1F3A;
+}
+
+.wrapInput{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    width: 300px;
+    height: auto;
+    padding-left: 50px;
+    border-radius: 50px;
+    border: 2px solid #10568c;
+    transition: all 0.3s ease;
+}
+
+.wrapInput:hover{
+    transform: scale(1.1);
+    border: 3.4px solid #9f4220;
+}
