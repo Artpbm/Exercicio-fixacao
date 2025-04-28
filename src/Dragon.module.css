@@ -7,7 +7,7 @@
 .wrapInput{
     display: flex;
     justify-content: center;
-    margin: auto;
+    margin:  auto;
     position: relative;
     width: 300px;
     height: auto;
@@ -20,4 +20,38 @@
 .wrapInput:hover{
     transform: scale(1.1);
     border: 3.4px solid #9f4220;
+}
+
+.footer {
+    background-color: #1a1a1a; 
+    color: #f0f0f0; 
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1rem;
+  }
+
+  
+  .footerIcons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .footerIcons img {
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s ease;
+  }
+  
+  .footerIcons img:hover {
+    transform: scale(1.2); 
+  }
+
+@media (min-width: 1666px){
+    .wrapCard{
+        padding-left: 10%;
+        padding-right: 10%;
+        }
+ 
 }

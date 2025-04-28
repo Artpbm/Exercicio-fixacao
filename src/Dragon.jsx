@@ -4,6 +4,11 @@ import { useState, useEffect } from 'react'
 import { Card } from './Components/Card'
 import { Menu } from './Components/menu'
 
+import logo from './assets/images/dragonball.jpg'
+import Facebook from './assets/images/facebook.png'
+import Twitter from './assets/images/twitter.png'
+import Youtube from './assets/images/youtube.png'
+
 export default function Dragon(){
     const [data, setData] = useState([])
     const [page, setPage] = useState("")
@@ -40,6 +45,20 @@ export default function Dragon(){
                 })}
             </div>
         </section>
+        <footer className={style.footer}>
+        <p>© 2025 Arthur Palacio Barbosa Moulepes. Todos os direitos reservados.</p>
+        <div className={style.footerIcons}>
+        <a href="https://www.facebook.com/groups/dbkamepostagem">
+        <img src={Facebook} alt="Facebook" />
+        </a>
+         <a href="https://x.com/db_official_en">
+        <img src={Twitter} alt="Twitter" />
+        </a>
+        <a href="https://www.youtube.com/watch?v=2nYozPLpJRE&list=PL6EC7B047181AD013">
+        <img src={Youtube} alt="Youtube" />
+        </a>
+        </div>
+    </footer>
         </>
     )
 }
