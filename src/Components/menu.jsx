@@ -1,21 +1,20 @@
-// import style from './menu.module.css'
+import style from './menu.module.css';
+import ball from '../assets/images/ball.png';
 
-export const Menu = (props) => {
-
+export const Menu = ({ op1, op2 }) => {
   return (
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-link" href={'/'}>{props.op1}</a>
-        <a class="nav-link" href={'/db'}>{props.op2}</a>
+    <nav className={`${style.navBar}`}>
+      <div className={style.container}>
+        <img src={ball} alt="logoNav" className={style.logoNav} />
+        <ul className={style.navMenu}>
+          <li>
+            <a className={style.navLink} href="/">{op1}</a>
+          </li>
+          <li>
+            <a className={style.navLink} href="/db">{op2}</a>
+          </li>
+        </ul>
       </div>
-    </div>
-  </div>
-</nav>
-
-  )
-}
+    </nav>
+  );
+};

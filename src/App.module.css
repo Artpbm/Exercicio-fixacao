@@ -1,1 +1,114 @@
 
+.first {
+    background: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
+    padding: 2rem;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  
+  .logo {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 5px #ff9800;
+    margin-bottom: 2rem;
+  }
+  
+  .wrapInfo {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .text {
+    background-color: #1a1a1a;
+    padding: 2.5rem;
+    box-shadow: 0px 0px 15px 5px #ff9800;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    max-width: 800px;
+    text-align: center;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+    color: #f0f0f0; 
+  }
+  
+  .buttDb {
+    padding: 0.8rem 1.5rem;
+    background-color: #ff9800;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 1.5rem;
+  }
+  
+  .buttDb:hover {
+    background-color: #ff8800;
+  }
+  
+  .vContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .vbutt {
+    padding: 0.8rem 1.5rem;
+    background-color: #ff4d00;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-bottom: 1.5rem;
+  }
+  
+  .vbutt:hover {
+    background-color: #e64500;
+  }
+  
+  .videoW {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+  
+  iframe {
+    border-radius: 12px;
+    box-shadow: 0 0 20px 5px orange;
+  }
+  
+  .footer {
+    background-color: #1a1a1a; 
+    color: #f0f0f0; 
+    text-align: center;
+    padding: 1.5rem;
+    font-size: 1rem;
+  }
+
+  
+  .footerIcons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .footerIcons img {
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s ease;
+  }
+  
+  .footerIcons img:hover {
+    transform: scale(1.2); 
+  }
+
+  
